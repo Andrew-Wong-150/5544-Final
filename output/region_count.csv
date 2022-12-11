@@ -1,0 +1,23 @@
+REGION,SURVIVED,COUNT
+Aleppo,False,78672
+Aleppo,True,2163976
+Colombia,False,16338
+Colombia,True,688943
+Iran,False,11926
+Iran,True,531322
+Karachi,False,165605
+Karachi,True,6989319
+Lebanon,False,7646
+Lebanon,True,433543
+Nairobi,False,43959
+Nairobi,True,1247100
+Saudi Arabia,False,21529
+Saudi Arabia,True,1306033
+Thailand,False,86
+Thailand,True,88371
+Turkey,False,280
+Turkey,True,303707
+Venezuela,False,3717
+Venezuela,True,140089
+Yemen,False,7711
+Yemen,True,294076

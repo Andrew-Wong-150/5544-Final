@@ -1,0 +1,238 @@
+REGION,SYNDROME,SURVIVED,COUNT
+Aleppo,VOMITING,False,31425
+Aleppo,VOMITING,True,277280
+Aleppo,ABD PAIN,False,20700
+Aleppo,ABD PAIN,True,174415
+Aleppo,FEVER,False,11571
+Aleppo,FEVER,True,167898
+Aleppo,DIARRHEA,False,14047
+Aleppo,DIARRHEA,True,123857
+Aleppo,BACK PAIN,False,9212
+Aleppo,BACK PAIN,True,77477
+Aleppo,HEADACHE,False,1723
+Aleppo,HEADACHE,True,38180
+Aleppo,BLURRED VISION,False,1698
+Aleppo,BLURRED VISION,True,31561
+Aleppo,NOSE BLEED,False,3263
+Aleppo,NOSE BLEED,True,27017
+Aleppo,BACK STRAIN,False,2607
+Aleppo,BACK STRAIN,True,20406
+Aleppo,RASH,False,845
+Aleppo,RASH,True,19743
+Colombia,VOMITING,False,6418
+Colombia,VOMITING,True,67184
+Colombia,FEVER,False,2378
+Colombia,FEVER,True,48185
+Colombia,ABD PAIN,False,4267
+Colombia,ABD PAIN,True,41461
+Colombia,DIARRHEA,False,2849
+Colombia,DIARRHEA,True,30084
+Colombia,BACK PAIN,False,1862
+Colombia,BACK PAIN,True,18390
+Colombia,HEADACHE,False,354
+Colombia,HEADACHE,True,11960
+Colombia,BLURRED VISION,False,355
+Colombia,BLURRED VISION,True,9666
+Colombia,NOSE BLEED,False,683
+Colombia,NOSE BLEED,True,6401
+Colombia,COUGH,False,8
+Colombia,COUGH,True,7054
+Colombia,RASH,False,146
+Colombia,RASH,True,6252
+Iran,VOMITING,False,4682
+Iran,VOMITING,True,50915
+Iran,FEVER,False,1794
+Iran,FEVER,True,36500
+Iran,ABD PAIN,False,3079
+Iran,ABD PAIN,True,30934
+Iran,DIARRHEA,False,2109
+Iran,DIARRHEA,True,22738
+Iran,BACK PAIN,False,1339
+Iran,BACK PAIN,True,13691
+Iran,HEADACHE,False,252
+Iran,HEADACHE,True,9128
+Iran,BLURRED VISION,False,239
+Iran,BLURRED VISION,True,7521
+Iran,COUGH,False,7
+Iran,COUGH,True,5368
+Iran,NOSE BLEED,False,489
+Iran,NOSE BLEED,True,4741
+Iran,RASH,False,120
+Iran,RASH,True,4738
+Karachi,VOMITING,False,65265
+Karachi,VOMITING,True,684844
+Karachi,FEVER,False,24400
+Karachi,FEVER,True,486907
+Karachi,ABD PAIN,False,43055
+Karachi,ABD PAIN,True,420992
+Karachi,DIARRHEA,False,29518
+Karachi,DIARRHEA,True,305453
+Karachi,BACK PAIN,False,18783
+Karachi,BACK PAIN,True,186112
+Karachi,HEADACHE,False,3463
+Karachi,HEADACHE,True,120471
+Karachi,BLURRED VISION,False,3404
+Karachi,BLURRED VISION,True,97377
+Karachi,NOSE BLEED,False,6790
+Karachi,NOSE BLEED,True,64343
+Karachi,COUGH,False,67
+Karachi,COUGH,True,70326
+Karachi,RASH,False,1714
+Karachi,RASH,True,62756
+Lebanon,VOMITING,False,2954
+Lebanon,VOMITING,True,36496
+Lebanon,FEVER,False,1170
+Lebanon,FEVER,True,28573
+Lebanon,ABD PAIN,False,1976
+Lebanon,ABD PAIN,True,22066
+Lebanon,DIARRHEA,False,1349
+Lebanon,DIARRHEA,True,16213
+Lebanon,BACK PAIN,False,834
+Lebanon,BACK PAIN,True,9680
+Lebanon,HEADACHE,False,157
+Lebanon,HEADACHE,True,7397
+Lebanon,BLURRED VISION,False,148
+Lebanon,BLURRED VISION,True,5740
+Lebanon,COUGH,False,6
+Lebanon,COUGH,True,4521
+Lebanon,RASH,False,77
+Lebanon,RASH,True,4003
+Lebanon,NOSE BLEED,False,365
+Lebanon,NOSE BLEED,True,3288
+Nairobi,VOMITING,False,17640
+Nairobi,VOMITING,True,157366
+Nairobi,ABD PAIN,False,11535
+Nairobi,ABD PAIN,True,98791
+Nairobi,FEVER,False,6445
+Nairobi,FEVER,True,96151
+Nairobi,DIARRHEA,False,7854
+Nairobi,DIARRHEA,True,69939
+Nairobi,BACK PAIN,False,5178
+Nairobi,BACK PAIN,True,43530
+Nairobi,HEADACHE,False,953
+Nairobi,HEADACHE,True,21992
+Nairobi,BLURRED VISION,False,977
+Nairobi,BLURRED VISION,True,18217
+Nairobi,NOSE BLEED,False,1832
+Nairobi,NOSE BLEED,True,15343
+Nairobi,BACK STRAIN,False,1360
+Nairobi,BACK STRAIN,True,11394
+Nairobi,RASH,False,492
+Nairobi,RASH,True,11646
+Saudi Arabia,VOMITING,False,8434
+Saudi Arabia,VOMITING,True,105260
+Saudi Arabia,FEVER,False,3092
+Saudi Arabia,FEVER,True,84849
+Saudi Arabia,ABD PAIN,False,5548
+Saudi Arabia,ABD PAIN,True,63427
+Saudi Arabia,DIARRHEA,False,3786
+Saudi Arabia,DIARRHEA,True,47006
+Saudi Arabia,BACK PAIN,False,2398
+Saudi Arabia,BACK PAIN,True,28062
+Saudi Arabia,HEADACHE,False,450
+Saudi Arabia,HEADACHE,True,22250
+Saudi Arabia,BLURRED VISION,False,444
+Saudi Arabia,BLURRED VISION,True,17578
+Saudi Arabia,COUGH,False,12
+Saudi Arabia,COUGH,True,13912
+Saudi Arabia,RASH,False,248
+Saudi Arabia,RASH,True,11744
+Saudi Arabia,NOSE BLEED,False,864
+Saudi Arabia,NOSE BLEED,True,9383
+Thailand,FEVER,False,4
+Thailand,FEVER,True,4932
+Thailand,VOMITING,False,3
+Thailand,VOMITING,True,3843
+Thailand,ABD PAIN,False,1
+Thailand,ABD PAIN,True,2007
+Thailand,DIARRHEA,False,1
+Thailand,DIARRHEA,True,1699
+Thailand,HEADACHE,False,1
+Thailand,HEADACHE,True,1477
+Thailand,BLURRED VISION,True,1081
+Thailand,COUGH,False,1
+Thailand,COUGH,True,1072
+Thailand,BACK PAIN,False,1
+Thailand,BACK PAIN,True,921
+Thailand,RASH,False,2
+Thailand,RASH,True,773
+Thailand,HA,True,399
+Turkey,FEVER,False,15
+Turkey,FEVER,True,16810
+Turkey,VOMITING,False,13
+Turkey,VOMITING,True,12924
+Turkey,ABD PAIN,False,1
+Turkey,ABD PAIN,True,6983
+Turkey,DIARRHEA,False,11
+Turkey,DIARRHEA,True,5807
+Turkey,HEADACHE,False,6
+Turkey,HEADACHE,True,5045
+Turkey,BLURRED VISION,False,3
+Turkey,BLURRED VISION,True,3950
+Turkey,COUGH,False,3
+Turkey,COUGH,True,3536
+Turkey,BACK PAIN,True,3111
+Turkey,RASH,False,1
+Turkey,RASH,True,2635
+Turkey,NECK PAIN,False,1
+Turkey,NECK PAIN,True,1480
+Venezuela,VOMITING,False,1455
+Venezuela,VOMITING,True,14785
+Venezuela,FEVER,False,553
+Venezuela,FEVER,True,10027
+Venezuela,ABD PAIN,False,980
+Venezuela,ABD PAIN,True,9115
+Venezuela,DIARRHEA,False,610
+Venezuela,DIARRHEA,True,6630
+Venezuela,BACK PAIN,False,410
+Venezuela,BACK PAIN,True,4009
+Venezuela,HEADACHE,False,81
+Venezuela,HEADACHE,True,2508
+Venezuela,BLURRED VISION,False,83
+Venezuela,BLURRED VISION,True,1984
+Venezuela,NOSE BLEED,False,154
+Venezuela,NOSE BLEED,True,1373
+Venezuela,RASH,False,50
+Venezuela,RASH,True,1314
+Venezuela,COUGH,False,2
+Venezuela,COUGH,True,1345
+Yemen,VOMITING,False,2997
+Yemen,VOMITING,True,30654
+Yemen,FEVER,False,1073
+Yemen,FEVER,True,21054
+Yemen,ABD PAIN,False,2035
+Yemen,ABD PAIN,True,18916
+Yemen,DIARRHEA,False,1352
+Yemen,DIARRHEA,True,13679
+Yemen,BACK PAIN,False,890
+Yemen,BACK PAIN,True,8393
+Yemen,HEADACHE,False,158
+Yemen,HEADACHE,True,5210
+Yemen,BLURRED VISION,False,160
+Yemen,BLURRED VISION,True,4235
+Yemen,NOSE BLEED,False,319
+Yemen,NOSE BLEED,True,2852
+Yemen,COUGH,False,4
+Yemen,COUGH,True,2816
+Yemen,RASH,False,73
+Yemen,RASH,True,2746
+DEFAULT,VOMITING,False,141286
+DEFAULT,VOMITING,True,1441551
+DEFAULT,FEVER,False,52495
+DEFAULT,FEVER,True,1001886
+DEFAULT,ABD PAIN,False,93177
+DEFAULT,ABD PAIN,True,889107
+DEFAULT,DIARRHEA,False,63486
+DEFAULT,DIARRHEA,True,643105
+DEFAULT,BACK PAIN,False,40907
+DEFAULT,BACK PAIN,True,393376
+DEFAULT,HEADACHE,False,7598
+DEFAULT,HEADACHE,True,245618
+DEFAULT,BLURRED VISION,False,7511
+DEFAULT,BLURRED VISION,True,198910
+DEFAULT,NOSE BLEED,False,14759
+DEFAULT,NOSE BLEED,True,135998
+DEFAULT,COUGH,False,147
+DEFAULT,COUGH,True,141075
+DEFAULT,RASH,False,3768
+DEFAULT,RASH,True,128350
