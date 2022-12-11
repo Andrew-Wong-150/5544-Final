@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="#">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.6.1/d3.min.js"></script>
+    <style>
+        .dashboard {
+            border: 5px solid;
+            background-color: #ebe6e6;
+            border-radius: 25px;
+            padding: 20px;
+        }
+
+        .viz {
+            border: 1px solid;
+            border-radius: 5px;
+            background-color: #ffffff;
+        }
+        .viztree {
+            border: 1px solid;
+            border-radius: 5px;
+            padding: 5px;
+            background-color: #ffffff;
+            
+
+        }
+
+    </style>
+
+<body class="container">
+    <div class="dashboard">
+        <h1 class="display-1 text-center">2009 Epidemic Dashboard</h1>
+        <div class="row">
+            <div class="col-4" id="tooltip_map_target">
+
+                <div class="text-center">
+
+                    <div class="viz">
+                        <button type="button" class="btn btn-secondary btn-sm btn-block" id="Counts">COUNTS</button>
+                        <button type="button" class="btn btn-secondary btn-sm btn-block" id="Percents">PERCENTS</button>
+                        
+                        <div class="row">
+                            <svg id="choropleth_map" viewBox="-20 70 600 400" width="100%" height="100%"></svg>
+                        </div>
+                        <div> <span class="font-weight-bold">April 14</span><input type="range" , name="date" ,
+                            id="date" , value=100> June 28th
+                    </div>
+                        <div class="row">
+                            <svg id="line" viewBox="-60 0 1100 700" width="100%" height="100%"></svg>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class=container>
+
+                    <div class="viz row" id="tooltip_region_target">
+                        <svg id="region_bar" viewBox="-10 0 920 700" width="100%" height="100%"></svg>
+                    </div>
+                    <div class="viz row" id="tooltip_syndrome_target">
+                        <svg id="syndrome_bar" viewBox="-20 0 935 700" width="100%" height="100%"></svg>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class=container>
+
+                    <div class="viz row" id="tooltip_bubble_target">
+                        <svg id="bubble" viewBox="0 0 920 700" width="100%" height="100%"></svg>
+                        
+                    </div>
+                    <div class="viz row">
+                        <svg id="age_bar" viewBox="-10 0 935 700" width="100%" height="100%"></svg>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <div class="row">
+            <div class="col">
+                <h1> The Data</h1>
+                <p>This dashboard contains data from a fictional 2009 epidemic that hit 11 different regions of the world. By exploring the data, we hope to learn more about the pandemic in hopes to be more_________________________________________</p>
+                <h1> How to Interact</h1>
+                <p>This dashboard contains data from a fictional 2009 epidemic that hit 11 different regions of the world. By exploring the data, we hope to learn more about the pandemic in hopes to be more_________________________________________</p>
+                <p>This dashboard was created by Zoe Blumenfeld, Andrew Wong, and Caroline Pier</p>
+        
+            </div>
+            <div class="viztree col" id="tooltip_tree_map_target">
+                <svg id="tree_map" viewBox="0 0 900 700" width="100%" height="100%"></svg>
+            </div>
+            
+        </div>
+
+
+
+
+    </div>
+
+    <script src="src/colors.js"></script>
+
+
+    <script src="src/region_bar.js"></script>
+    <script src="src/syndrome_bar.js"></script>
+    <script src="src/line.js"></script>
+    <script src="src/age_bar.js"></script>
+    <script src="src/bubble.js"></script>
+
+    <!-- Specific src files for geo -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+    <script src="src/geo.js"></script>
+    </div>
+</body>
+
+</html>
